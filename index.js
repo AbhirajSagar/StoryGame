@@ -1,3 +1,6 @@
+let storyData;
+let slides;
+
 class Slide {
     constructor(id, text, media, actions) {
         this.id = id;
@@ -14,47 +17,23 @@ class Action {
     }
 }
 
-// Example JSON data (you can replace this with your own JSON data)
-const storyJson = `{
-    "slides": [
-      {
-        "id": 1,
-        "text": "You wake up in a forest...",
-        "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=2041&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
-        "actions": [
-          { "text": "Look around", "nextSlideId": 2 },
-          { "text": "Go back to sleep", "nextSlideId": 3 }
-        ]
-      },
-      {
-        "id": 2,
-        "text": "You see a path leading to a village...",
-        "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1698745479613-02b6e53c6795?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
-        "actions": [
-          { "text": "Follow the path", "nextSlideId": 4 },
-          { "text": "Go back", "nextSlideId": 1 },
-          { "text": "Climb a tree", "nextSlideId": 5 }
-        ]
-      },
-      {
-        "id": 3,
-        "text": "You fall back to sleep...",
-        "media": [{ "type": "audio", "src": "snoring.mp3" }],
-        "actions": [{ "text": "Wake up again", "nextSlideId": 1 }]
-      }
-    ]
-  }`;
 
-// Parse JSON data
-const storyData = JSON.parse(storyJson);
+fetch('./Story.json')
+  .then(response => response.json())
+  .then(story => prepareStory(story))
+  .catch(error => console.log(error));
 
-// Initialize slides from JSON data
-const slides = storyData.slides.map(slideData => new Slide(
-    slideData.id,
-    slideData.text,
-    slideData.media,
-    slideData.actions.map(actionData => new Action(actionData.text, actionData.nextSlideId))
-));
+function prepareStory(storyData)
+{
+    slides = storyData.slides.map(slideData => new Slide(
+        slideData.id,
+        slideData.text,
+        slideData.media,
+        slideData.actions.map(actionData => new Action(actionData.text, actionData.nextSlideId))
+    ));
+    renderSlide(1);
+}
+
 
 function renderSlide(slideId)
 {
@@ -113,4 +92,4 @@ function handleAction(slideId, actionIndex)
     renderSlide(nextSlideId);
 }
 
-renderSlide(1);
+
