@@ -2,411 +2,1037 @@
     "slides": [
         {
             "id": 1,
-            "text": "You wake up in a forest...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=2041&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "Are you sure about this, Jake? This place gives me the creeps.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Look around", "nextSlideId": 2 },
-                { "text": "Go back to sleep", "nextSlideId": 3 }
+                { "text": "Enter the mansion", "nextSlideId": 2 },
+                { "text": "Stay outside", "nextSlideId": 3 }
             ]
         },
         {
             "id": 2,
-            "text": "You see a path leading to a village...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1698745479613-02b6e53c6795?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "Come on, Emily. It's just an old house. Nothing to be afraid of.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Follow the path", "nextSlideId": 4 },
-                { "text": "Go back", "nextSlideId": 1 },
-                { "text": "Climb a tree", "nextSlideId": 5 }
+                { "text": "Step inside", "nextSlideId": 4 },
+                { "text": "Look for another entrance", "nextSlideId": 5 }
             ]
         },
         {
             "id": 3,
-            "text": "You fall back to sleep...",
-            "media": [{ "type": "audio", "src": "snoring.mp3" }],
+            "text": "You decide to stay outside. Suddenly, you hear a scream from inside the mansion.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Wake up again", "nextSlideId": 1 }
+                { "text": "Rush inside", "nextSlideId": 6 },
+                { "text": "Run away", "nextSlideId": 7 }
             ]
         },
         {
             "id": 4,
-            "text": "You arrive at a village...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1536308037887-165852797016?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "I heard the old owner went mad and killed his entire family.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Talk to the villagers", "nextSlideId": 6 },
-                { "text": "Explore the village", "nextSlideId": 7 }
+                { "text": "Keep moving", "nextSlideId": 8 },
+                { "text": "Explore the living room", "nextSlideId": 9 }
             ]
         },
         {
             "id": 5,
-            "text": "You climb a tree and see a river nearby...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1661950574876-ae1c9b087c4b?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You find a side entrance and step inside cautiously.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Head to the river", "nextSlideId": 8 },
-                { "text": "Go back down", "nextSlideId": 2 }
+                { "text": "Move towards the noise", "nextSlideId": 10 },
+                { "text": "Search for a light switch", "nextSlideId": 11 }
             ]
         },
         {
             "id": 6,
-            "text": "The villagers warn you about a dragon...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1605455852049-249d55dc11a7?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You rush inside and find Jake lying on the floor, unconscious.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Ask for more details", "nextSlideId": 9 },
-                { "text": "Ignore the warning", "nextSlideId": 10 }
+                { "text": "Check on Jake", "nextSlideId": 12 },
+                { "text": "Look around the room", "nextSlideId": 13 }
             ]
         },
         {
             "id": 7,
-            "text": "You find a market in the village...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1686285540671-8d1982a9a817?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You run away from the mansion, hearing the whispers fade as you get further.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Buy supplies", "nextSlideId": 11 },
-                { "text": "Look for information", "nextSlideId": 12 }
+                { "text": "Keep running", "nextSlideId": 14 },
+                { "text": "Stop to catch your breath", "nextSlideId": 15 }
             ]
         },
         {
             "id": 8,
-            "text": "You reach the river and see a boat...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1474484103140-c573c0aad086?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "That’s just a story. Let’s keep moving.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Take the boat", "nextSlideId": 13 },
-                { "text": "Follow the riverbank", "nextSlideId": 14 }
+                { "text": "Venture deeper", "nextSlideId": 16 },
+                { "text": "Check the basement", "nextSlideId": 17 }
             ]
         },
         {
             "id": 9,
-            "text": "The villagers tell you the dragon lives in a nearby cave...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1504064490268-ae1bd6833ce8?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "The living room is filled with old, dusty furniture and an eerie piano.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Prepare to fight the dragon", "nextSlideId": 15 },
-                { "text": "Avoid the cave", "nextSlideId": 16 }
+                { "text": "Inspect the piano", "nextSlideId": 18 },
+                { "text": "Look behind the curtains", "nextSlideId": 19 }
             ]
         },
         {
             "id": 10,
-            "text": "You decide to ignore the warning and continue exploring...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1717776412686-b19736dd2cba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "As you move towards the noise, the temperature drops suddenly.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Head towards the mountains", "nextSlideId": 17 },
-                { "text": "Explore the forest", "nextSlideId": 18 }
+                { "text": "Keep going", "nextSlideId": 20 },
+                { "text": "Turn back", "nextSlideId": 21 }
             ]
         },
         {
             "id": 11,
-            "text": "You buy supplies for your journey...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You find a light switch, but it doesn’t work. The darkness is oppressive.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Leave the village", "nextSlideId": 19 },
-                { "text": "Stay in the village", "nextSlideId": 20 }
+                { "text": "Search for another light source", "nextSlideId": 22 },
+                { "text": "Proceed in the dark", "nextSlideId": 23 }
             ]
         },
         {
             "id": 12,
-            "text": "You find an old man who offers to tell you a secret...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1683140678276-a03a3d220302?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "Jake wakes up with a start, his eyes wide with terror.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Listen to the old man", "nextSlideId": 21 },
-                { "text": "Ignore him", "nextSlideId": 22 }
+                { "text": "Ask Jake what happened", "nextSlideId": 24 },
+                { "text": "Help him up", "nextSlideId": 25 }
             ]
         },
         {
             "id": 13,
-            "text": "You take the boat and start rowing down the river...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1436162716854-dcb9157bfac1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You look around the room and see shadowy figures moving in the corners.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Row towards the island", "nextSlideId": 23 },
-                { "text": "Return to the shore", "nextSlideId": 24 }
+                { "text": "Confront the figures", "nextSlideId": 26 },
+                { "text": "Try to wake Jake", "nextSlideId": 27 }
             ]
         },
         {
             "id": 14,
-            "text": "You follow the riverbank and find a hidden cave...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1504064490268-ae1bd6833ce8?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You keep running until you reach a nearby town, out of breath and terrified.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Enter the cave", "nextSlideId": 25 },
-                { "text": "Continue along the river", "nextSlideId": 26 }
+                { "text": "Find help", "nextSlideId": 28 },
+                { "text": "Hide and wait", "nextSlideId": 29 }
             ]
         },
         {
             "id": 15,
-            "text": "You prepare to fight the dragon and head to the cave...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1521106581851-da5b6457f674?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You stop to catch your breath, but the whispers start again, louder this time.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Face the dragon", "nextSlideId": 27 },
-                { "text": "Turn back", "nextSlideId": 28 }
+                { "text": "Run again", "nextSlideId": 30 },
+                { "text": "Cover your ears", "nextSlideId": 31 }
             ]
         },
         {
             "id": 16,
-            "text": "You decide to avoid the cave and leave the village...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1676621828743-4e498815cbac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You venture deeper into the mansion, the air growing colder with each step.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Head back to the forest", "nextSlideId": 1 },
-                { "text": "Travel towards the mountains", "nextSlideId": 17 }
+                { "text": "Investigate the kitchen", "nextSlideId": 32 },
+                { "text": "Head upstairs", "nextSlideId": 33 }
             ]
         },
         {
             "id": 17,
-            "text": "You travel towards the mountains and find a mysterious temple...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1697729740727-5eac56dc008e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You descend into the basement, the stairs creaking under your weight.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Explore the temple", "nextSlideId": 29 },
-                { "text": "Return to the village", "nextSlideId": 4 }
+                { "text": "Explore the basement", "nextSlideId": 34 },
+                { "text": "Return upstairs", "nextSlideId": 35 }
             ]
         },
         {
             "id": 18,
-            "text": "You explore the forest and find a hidden glade...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1572286825869-f5a6a0de97ec?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "The piano keys depress on their own, playing a discordant, haunting melody.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Rest in the glade", "nextSlideId": 30 },
-                { "text": "Continue through the forest", "nextSlideId": 1 }
+                { "text": "Investigate further", "nextSlideId": 36 },
+                { "text": "Leave the room", "nextSlideId": 37 }
             ]
         },
         {
             "id": 19,
-            "text": "You leave the village and continue your journey...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1676621828743-4e498815cbac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "Behind the curtains, you find an old, dusty mirror. Your reflection looks distorted.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Head towards the mountains", "nextSlideId": 17 },
-                { "text": "Explore the nearby forest", "nextSlideId": 1 }
+                { "text": "Touch the mirror", "nextSlideId": 38 },
+                { "text": "Step back", "nextSlideId": 39 }
             ]
         },
         {
             "id": 20,
-            "text": "You decide to stay in the village and enjoy the peaceful life...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1661962862470-a03bcc2fb415?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You keep going and see a shadowy figure at the end of the hallway.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Live a quiet life in the village", "nextSlideId": 31 }
+                { "text": "Approach the figure", "nextSlideId": 40 },
+                { "text": "Run back", "nextSlideId": 41 }
             ]
         },
         {
             "id": 21,
-            "text": "The old man tells you about a hidden treasure in the mountains...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1618017049045-0dc296b7eb10?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You turn back, but the hallway behind you has disappeared.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Search for the treasure", "nextSlideId": 32 },
-                { "text": "Ignore the old man", "nextSlideId": 33 }
+                { "text": "Panic", "nextSlideId": 42 },
+                { "text": "Stay calm", "nextSlideId": 43 }
             ]
         },
         {
             "id": 22,
-            "text": "You ignore the old man and continue on your way...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1685977707202-c873f6ccdf47?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You find a candle and light it, the flickering flame casting eerie shadows.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Head towards the mountains", "nextSlideId": 17 },
-                { "text": "Explore the forest", "nextSlideId": 18 }
+                { "text": "Move forward", "nextSlideId": 44 },
+                { "text": "Stay put", "nextSlideId": 45 }
             ]
         },
         {
             "id": 23,
-            "text": "You row towards the island and discover a mysterious altar...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You proceed in the dark, feeling your way along the walls.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Investigate the altar", "nextSlideId": 34 },
-                { "text": "Return to the shore", "nextSlideId": 24 }
+                { "text": "Keep moving", "nextSlideId": 46 },
+                { "text": "Stop and listen", "nextSlideId": 47 }
             ]
         },
         {
             "id": 24,
-            "text": "You return to the shore and continue your journey...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1685977707202-c873f6ccdf47?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "Jake mutters about shadows and whispers, his eyes wide with fear.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Head towards the mountains", "nextSlideId": 17 },
-                { "text": "Explore the nearby forest", "nextSlideId": 1 }
+                { "text": "Reassure him", "nextSlideId": 48 },
+                { "text": "Look around", "nextSlideId": 49 }
             ]
         },
         {
             "id": 25,
-            "text": "You enter the cave and find a sleeping dragon...",
-            "media": [{ "type": "image", "src": "https://qph.cf2.quoracdn.net/main-qimg-6f2bc219d848b3953446286ea95d439e-lq" }],
+            "text": "You help Jake up, but he seems weak and disoriented.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Fight the dragon", "nextSlideId": 35 },
-                { "text": "Sneak away quietly", "nextSlideId": 36 }
+                { "text": "Support him", "nextSlideId": 50 },
+                { "text": "Find a way out", "nextSlideId": 51 }
             ]
         },
         {
             "id": 26,
-            "text": "You continue along the river and discover a hidden waterfall...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1661883809211-eb59f508b3d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "The figures vanish as you approach, leaving you alone in the room.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Explore the waterfall", "nextSlideId": 37 },
-                { "text": "Return to the village", "nextSlideId": 4 }
+                { "text": "Investigate further", "nextSlideId": 52 },
+                { "text": "Try to wake Jake", "nextSlideId": 27 }
             ]
         },
         {
             "id": 27,
-            "text": "You face the dragon in battle...",
-            "media": [{ "type": "image", "src": "https://t3.ftcdn.net/jpg/05/73/61/12/360_F_573611237_ibLJMHv2kIV7kBQKtdL8eFxIGRmrDtvA.jpg" }],
+            "text": "Jake wakes up, looking terrified. 'We need to get out of here!' he says.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Defeat the dragon", "nextSlideId": 38 },
-                { "text": "Retreat", "nextSlideId": 39 }
+                { "text": "Find an exit", "nextSlideId": 51 },
+                { "text": "Stay together", "nextSlideId": 53 }
             ]
         },
         {
             "id": 28,
-            "text": "You decide to turn back and avoid the dragon...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1521106581851-da5b6457f674?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You find help in the town and tell them about the mansion.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Return to the village", "nextSlideId": 4 },
-                { "text": "Head towards the mountains", "nextSlideId": 17 }
+                { "text": "Lead them to the mansion", "nextSlideId": 54 },
+                { "text": "Stay in the town", "nextSlideId": 55 }
             ]
         },
         {
             "id": 29,
-            "text": "You explore the mysterious temple and find ancient artifact...",
-            "media": [{ "type": "image", "src": "https://media.npr.org/assets/img/2024/01/24/img_5885-49d40c270759cacad653eee3411cfba523ef3564.jpeg?s=1100&c=50&f=jpeg" }],
+            "text": "You hide and wait, hoping the whispers won’t find you.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Study the artifacts", "nextSlideId": 40 },
-                { "text": "Leave the temple", "nextSlideId": 41 }
+                { "text": "Stay hidden", "nextSlideId": 56 },
+                { "text": "Look around", "nextSlideId": 57 }
             ]
         },
         {
             "id": 30,
-            "text": "You rest in the glade and enjoy the serenity...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1572292231498-500a77811489?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You run again, but the whispers seem to follow you.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Stay longer", "nextSlideId": 42 },
-                { "text": "Continue exploring", "nextSlideId": 1 }
+                { "text": "Keep running", "nextSlideId": 14 },
+                { "text": "Hide", "nextSlideId": 29 }
             ]
         },
         {
             "id": 31,
-            "text": "You live a quiet life in the village and find peace...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1536308037887-165852797016?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
-            "actions": []
+            "text": "You cover your ears, but the whispers get louder.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Run", "nextSlideId": 30 },
+                { "text": "Scream", "nextSlideId": 58 }
+            ]
         },
         {
             "id": 32,
-            "text": "You search for the hidden treasure in the mountains...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You investigate the kitchen, finding it strangely intact but eerily quiet.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Find the treasure", "nextSlideId": 43 },
-                { "text": "Give up the search", "nextSlideId": 44 }
+                { "text": "Open the fridge", "nextSlideId": 59 },
+                { "text": "Check the cupboards", "nextSlideId": 60 }
             ]
         },
         {
             "id": 33,
-            "text": "You continue your journey and discover an ancient ruin...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1670772823082-a616473fb0ab?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You head upstairs, each step echoing in the silence.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Explore the ruin", "nextSlideId": 45 },
-                { "text": "Move on", "nextSlideId": 46 }
+                { "text": "Check the first room", "nextSlideId": 61 },
+                { "text": "Keep going up", "nextSlideId": 62 }
             ]
         },
         {
             "id": 34,
-            "text": "You investigate the altar and discover a powerful artifact...",
-            "media": [{ "type": "image", "src": "https://media.npr.org/assets/img/2024/01/24/img_5885-49d40c270759cacad653eee3411cfba523ef3564.jpeg?s=1100&c=50&f=jpeg" }],
+            "text": "You explore the basement and find old, dusty furniture and strange symbols on the walls.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Use the artifact", "nextSlideId": 47 },
-                { "text": "Leave the island", "nextSlideId": 24 }
+                { "text": "Inspect the symbols", "nextSlideId": 63 },
+                { "text": "Look for hidden passages", "nextSlideId": 64 }
             ]
         },
         {
             "id": 35,
-            "text": "You defeat the dragon and find a treasure hoard...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1618017049045-0dc296b7eb10?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You return upstairs, feeling an eerie presence behind you.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Take the treasure", "nextSlideId": 48 },
-                { "text": "Leave the treasure", "nextSlideId": 49 }
+                { "text": "Turn around", "nextSlideId": 65 },
+                { "text": "Keep moving", "nextSlideId": 66 }
             ]
         },
         {
             "id": 36,
-            "text": "You sneak away quietly and leave the cave...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1422452098470-722310d3ad74?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "As you investigate, the piano stops and a cold breeze brushes past you.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Return to the village", "nextSlideId": 4 },
-                { "text": "Explore the mountains", "nextSlideId": 17 }
+                { "text": "Stay in the room", "nextSlideId": 67 },
+                { "text": "Leave quickly", "nextSlideId": 68 }
             ]
         },
         {
             "id": 37,
-            "text": "You explore the waterfall and find a hidden cave behind it...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1504064490268-ae1bd6833ce8?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You leave the room, but the melody lingers in your mind.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Enter the hidden cave", "nextSlideId": 25 },
-                { "text": "Return to the village", "nextSlideId": 4 }
+                { "text": "Find another room", "nextSlideId": 69 },
+                { "text": "Head upstairs", "nextSlideId": 33 }
             ]
         },
         {
             "id": 38,
-            "text": "You take the treasure from the dragon’s hoard and become a hero...",
-            "media": [{ "type": "image", "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrOQaCZvHSf9S2lF1l-e1KWMrsI8eYLlbo5Q&s" }],
-            "actions": []
+            "text": "You touch the mirror, and your reflection smirks back at you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Step back in horror", "nextSlideId": 70 },
+                { "text": "Break the mirror", "nextSlideId": 71 }
+            ]
         },
         {
-
-
             "id": 39,
-            "text": "You retreat and return to the village...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1661962862470-a03bcc2fb415?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
-            "actions": []
+            "text": "You step back, and the reflection returns to normal.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Inspect the mirror", "nextSlideId": 72 },
+                { "text": "Leave the room", "nextSlideId": 37 }
+            ]
         },
         {
             "id": 40,
-            "text": "You study the artifacts and learn ancient secrets...",
-            "media": [{ "type": "image", "src": "https://media.npr.org/assets/img/2024/01/24/img_5885-49d40c270759cacad653eee3411cfba523ef3564.jpeg?s=1100&c=50&f=jpeg" }],
-            "actions": []
+            "text": "As you approach the figure, it vanishes into the shadows.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Follow the shadows", "nextSlideId": 73 },
+                { "text": "Turn back", "nextSlideId": 21 }
+            ]
         },
         {
             "id": 41,
-            "text": "You leave the temple and continue your journey...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You run back, but the hallway seems endless.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Explore the mountains", "nextSlideId": 17 },
-                { "text": "Return to the village", "nextSlideId": 4 }
+                { "text": "Keep running", "nextSlideId": 14 },
+                { "text": "Stop and listen", "nextSlideId": 47 }
             ]
         },
         {
             "id": 42,
-            "text": "You stay longer in the glade and find inner peace...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1666273145291-3a6323d4388f?q=80&w=1783&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
-            "actions": []
+            "text": "You panic, but the whispers grow louder, mocking your fear.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Scream", "nextSlideId": 58 },
+                { "text": "Run aimlessly", "nextSlideId": 30 }
+            ]
         },
         {
             "id": 43,
-            "text": "You find the hidden treasure and become wealthy...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1618017049045-0dc296b7eb10?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
-            "actions": []
+            "text": "You stay calm and try to find a way out, but the hallway keeps shifting.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Focus on the end", "nextSlideId": 74 },
+                { "text": "Close your eyes", "nextSlideId": 75 }
+            ]
         },
         {
             "id": 44,
-            "text": "You give up the search and continue your journey...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You move forward, the candlelight flickering and casting eerie shadows.",
+            "media": [{ "type": "image", "src": "" }],
             "actions": [
-                { "text": "Head towards the mountains", "nextSlideId": 17 },
-                { "text": "Explore the forest", "nextSlideId": 1 }
+                { "text": "Keep going", "nextSlideId": 76 },
+                { "text": "Stop and listen", "nextSlideId": 47 }
             ]
         },
         {
             "id": 45,
-            "text": "You explore the ancient ruin and discover hidden knowledge...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1670772832982-87d7725f0cf6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
-            "actions": []
+            "text": "You stay put, feeling the oppressive darkness closing in around you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Move cautiously", "nextSlideId": 46 },
+                { "text": "Call out for help", "nextSlideId": 77 }
+            ]
         },
         {
             "id": 46,
-            "text": "You move on and find new adventures...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1677396921317-5398bbe55a68?q=80&w=1802&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
-            "actions": []
+            "text": "You keep moving in the dark, hearing whispers getting closer.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Run", "nextSlideId": 30 },
+                { "text": "Confront the whispers", "nextSlideId": 78 }
+            ]
         },
         {
             "id": 47,
-            "text": "You use the powerful artifact to bring peace to the land...",
-            "media": [{ "type": "image", "src": "https://images.unsplash.com/photo-1520962880247-cfaf541c8724?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}],
-            "actions": []
+            "text": "You stop and listen, hearing faint footsteps approaching.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Hide", "nextSlideId": 79 },
+                { "text": "Call out", "nextSlideId": 80 }
+            ]
         },
         {
             "id": 48,
-            "text": "You take the treasure and return to the village a hero...",
-            "media": [{ "type": "image", "src": "https://ik.imagekit.io/storybird/images/cb232d97-db3b-454d-a432-cd5de63494f0/13_390189732.png" }],
-            "actions": []
+            "text": "You reassure Jake, but he seems unconvinced and scared.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Stay with him", "nextSlideId": 81 },
+                { "text": "Look for a way out", "nextSlideId": 51 }
+            ]
         },
         {
             "id": 49,
-            "text": "You leave the treasure and return to the village...",
-            "media": [{ "type": "image", "src": "https://plus.unsplash.com/premium_photo-1661962862470-a03bcc2fb415?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }],
+            "text": "You look around and see shadows dancing on the walls.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Follow the shadows", "nextSlideId": 73 },
+                { "text": "Stay put", "nextSlideId": 82 }
+            ]
+        },
+        {
+            "id": 50,
+            "text": "You support Jake as you try to find a way out of the mansion.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Look for an exit", "nextSlideId": 51 },
+                { "text": "Hide", "nextSlideId": 79 }
+            ]
+        },
+        {
+            "id": 51,
+            "text": "You find a potential exit, but it’s blocked by debris.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Clear the debris", "nextSlideId": 83 },
+                { "text": "Find another way", "nextSlideId": 84 }
+            ]
+        },
+        {
+            "id": 52,
+            "text": "You investigate further, but the shadows seem to follow you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Confront the shadows", "nextSlideId": 78 },
+                { "text": "Run", "nextSlideId": 30 }
+            ]
+        },
+        {
+            "id": 53,
+            "text": "You decide to stay together and look for an exit.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Look for an exit", "nextSlideId": 51 },
+                { "text": "Stay put", "nextSlideId": 82 }
+            ]
+        },
+        {
+            "id": 54,
+            "text": "You lead the townspeople to the mansion, but they refuse to enter.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Enter alone", "nextSlideId": 2 },
+                { "text": "Convince them to help", "nextSlideId": 85 }
+            ]
+        },
+        {
+            "id": 55,
+            "text": "You stay in the town, hoping the whispers won't reach you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Stay hidden", "nextSlideId": 56 },
+                { "text": "Look for help", "nextSlideId": 28 }
+            ]
+        },
+        {
+            "id": 56,
+            "text": "You stay hidden, but the whispers grow louder, mocking you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Run", "nextSlideId": 30 },
+                { "text": "Confront the whispers", "nextSlideId": 78 }
+            ]
+        },
+        {
+            "id": 57,
+            "text": "You look around and see shadowy figures moving in the distance.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Confront the figures", "nextSlideId": 78 },
+                { "text": "Hide", "nextSlideId": 79 }
+            ]
+        },
+        {
+            "id": 58,
+            "text": "You scream, but the sound seems to be swallowed by the darkness.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Run", "nextSlideId": 30 },
+                { "text": "Cover your ears", "nextSlideId": 31 }
+            ]
+        },
+        {
+            "id": 59,
+            "text": "You open the fridge and find it filled with old, rotting food.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Close the fridge", "nextSlideId": 32 },
+                { "text": "Inspect further", "nextSlideId": 86 }
+            ]
+        },
+        {
+            "id": 60,
+            "text": "You check the cupboards and find strange, old-fashioned utensils.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Take a utensil", "nextSlideId": 87 },
+                { "text": "Close the cupboards", "nextSlideId": 32 }
+            ]
+        },
+        {
+            "id": 61,
+            "text": "You check the first room and find it filled with old, dusty furniture.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Inspect the furniture", "nextSlideId": 88 },
+                { "text": "Leave the room", "nextSlideId": 62 }
+            ]
+        },
+        {
+            "id": 62,
+            "text": "You keep going up and reach the attic, filled with old, forgotten items.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Explore the attic", "nextSlideId": 89 },
+                { "text": "Go back down", "nextSlideId": 33 }
+            ]
+        },
+        {
+            "id": 63,
+            "text": "You inspect the symbols, feeling a strange energy emanating from them.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Touch the symbols", "nextSlideId": 90 },
+                { "text": "Step back", "nextSlideId": 34 }
+            ]
+        },
+        {
+            "id": 64,
+            "text": "You look for hidden passages and find a small, concealed door.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Open the door", "nextSlideId": 91 },
+                { "text": "Ignore the door", "nextSlideId": 34 }
+            ]
+        },
+        {
+            "id": 65,
+            "text": "You turn around and see a shadowy figure standing behind you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Confront the figure", "nextSlideId": 78 },
+                { "text": "Run", "nextSlideId": 30 }
+            ]
+        },
+        {
+            "id": 66,
+            "text": "You keep moving, feeling the eerie presence following you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Run", "nextSlideId": 30 },
+                { "text": "Hide", "nextSlideId": 79 }
+            ]
+        },
+        {
+            "id": 67,
+            "text": "You stay in the room, feeling the cold breeze intensify.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Leave the room", "nextSlideId": 68 },
+                { "text": "Look around", "nextSlideId": 49 }
+            ]
+        },
+        {
+            "id": 68,
+            "text": "You leave the room quickly, the eerie feeling lingering.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Find another room", "nextSlideId": 69 },
+                { "text": "Head upstairs", "nextSlideId": 33 }
+            ]
+        },
+        {
+            "id": 69,
+            "text": "You find another room, filled with old, dusty furniture and cobwebs.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Inspect the furniture", "nextSlideId": 88 },
+                { "text": "Leave the room", "nextSlideId": 33 }
+            ]
+        },
+        {
+            "id": 70,
+            "text": "You step back in horror, your reflection returning to normal.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Inspect the mirror", "nextSlideId": 72 },
+                { "text": "Leave the room", "nextSlideId": 37 }
+            ]
+        },
+        {
+            "id": 71,
+            "text": "You break the mirror, shards falling to the ground with a deafening crash.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Inspect the shards", "nextSlideId": 92 },
+                { "text": "Leave the room", "nextSlideId": 37 }
+            ]
+        },
+        {
+            "id": 72,
+            "text": "You inspect the mirror, but it seems normal again.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Touch the mirror", "nextSlideId": 38 },
+                { "text": "Leave the room", "nextSlideId": 37 }
+            ]
+        },
+        {
+            "id": 73,
+            "text": "You follow the shadows, feeling a strange pull.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep following", "nextSlideId": 76 },
+                { "text": "Turn back", "nextSlideId": 21 }
+            ]
+        },
+        {
+            "id": 74,
+            "text": "You focus on the end of the hallway, ignoring the shifting walls.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep moving", "nextSlideId": 44 },
+                { "text": "Stop and listen", "nextSlideId": 47 }
+            ]
+        },
+        {
+            "id": 75,
+            "text": "You close your eyes and take a deep breath.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Open your eyes", "nextSlideId": 43 },
+                { "text": "Take another deep breath", "nextSlideId": 93 }
+            ]
+        },
+        {
+            "id": 76,
+            "text": "You keep moving, the shadows guiding you deeper into the mansion.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep following", "nextSlideId": 44 },
+                { "text": "Turn back", "nextSlideId": 21 }
+            ]
+        },
+        {
+            "id": 77,
+            "text": "You call out for help, but only your echo responds.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Move cautiously", "nextSlideId": 46 },
+                { "text": "Run", "nextSlideId": 30 }
+            ]
+        },
+        {
+            "id": 78,
+            "text": "You confront the shadows, but they envelop you, whispering secrets and fears.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Fight the shadows", "nextSlideId": 94 },
+                { "text": "Submit to the whispers", "nextSlideId": 95 }
+            ]
+        },
+        {
+            "id": 79,
+            "text": "You hide, trying to control your breathing.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Stay hidden", "nextSlideId": 56 },
+                { "text": "Look around", "nextSlideId": 57 }
+            ]
+        },
+        {
+            "id": 80,
+            "text": "You call out, but only silence responds.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Stay put", "nextSlideId": 45 },
+                { "text": "Move cautiously", "nextSlideId": 46 }
+            ]
+        },
+        {
+            "id": 81,
+            "text": "You stay with Jake, hoping to find a way out together.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Look for an exit", "nextSlideId": 51 },
+                { "text": "Stay put", "nextSlideId": 82 }
+            ]
+        },
+        {
+            "id": 82,
+            "text": "You stay put, hoping the darkness will pass.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Move cautiously", "nextSlideId": 46 },
+                { "text": "Call out for help", "nextSlideId": 77 }
+            ]
+        },
+        {
+            "id": 83,
+            "text": "You try to clear the debris, but it’s heavy and difficult to move.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep trying", "nextSlideId": 96 },
+                { "text": "Find another way", "nextSlideId": 84 }
+            ]
+        },
+        {
+            "id": 84,
+            "text": "You look for another way out, hoping to find a clear path.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep searching", "nextSlideId": 97 },
+                { "text": "Stay put", "nextSlideId": 82 }
+            ]
+        },
+        {
+            "id": 85,
+            "text": "You try to convince them, but they remain too scared to help.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Enter alone", "nextSlideId": 2 },
+                { "text": "Stay in the town", "nextSlideId": 55 }
+            ]
+        },
+        {
+            "id": 86,
+            "text": "You inspect further and find an old, hidden compartment.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Open the compartment", "nextSlideId": 98 },
+                { "text": "Close the fridge", "nextSlideId": 32 }
+            ]
+        },
+        {
+            "id": 87,
+            "text": "You take a utensil, feeling a strange, cold energy from it.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Inspect the utensil", "nextSlideId": 99 },
+                { "text": "Close the cupboards", "nextSlideId": 32 }
+            ]
+        },
+        {
+            "id": 88,
+            "text": "You inspect the furniture, finding old, tattered clothes and papers.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Read the papers", "nextSlideId": 100 },
+                { "text": "Leave the room", "nextSlideId": 62 }
+            ]
+        },
+        {
+            "id": 89,
+            "text": "You explore the attic, finding old, forgotten items and a dusty old chest.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Open the chest", "nextSlideId": 101 },
+                { "text": "Inspect the items", "nextSlideId": 102 }
+            ]
+        },
+        {
+            "id": 90,
+            "text": "You touch the symbols, feeling a strange energy course through you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep touching", "nextSlideId": 103 },
+                { "text": "Step back", "nextSlideId": 34 }
+            ]
+        },
+        {
+            "id": 91,
+            "text": "You open the door and find a small, dark passageway.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Enter the passageway", "nextSlideId": 104 },
+                { "text": "Close the door", "nextSlideId": 34 }
+            ]
+        },
+        {
+            "id": 92,
+            "text": "You inspect the shards, finding strange symbols etched into them.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Piece the shards together", "nextSlideId": 105 },
+                { "text": "Leave the room", "nextSlideId": 37 }
+            ]
+        },
+        {
+            "id": 93,
+            "text": "You take another deep breath, feeling slightly calmer.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Open your eyes", "nextSlideId": 43 },
+                { "text": "Stay still", "nextSlideId": 106 }
+            ]
+        },
+        {
+            "id": 94,
+            "text": "You fight the shadows, feeling their cold grip weaken.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep fighting", "nextSlideId": 107 },
+                { "text": "Submit to the whispers", "nextSlideId": 95 }
+            ]
+        },
+        {
+            "id": 95,
+            "text": "You submit to the whispers, feeling their cold presence envelop you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Resist", "nextSlideId": 108 },
+                { "text": "Embrace the whispers", "nextSlideId": 109 }
+            ]
+        },
+        {
+            "id": 96,
+            "text": "You keep trying, but the debris is too heavy to move alone.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Find another way", "nextSlideId": 84 },
+                { "text": "Call for help", "nextSlideId": 110 }
+            ]
+        },
+        {
+            "id": 97,
+            "text": "You keep searching, but the mansion seems to shift around you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Stay put", "nextSlideId": 82 },
+                { "text": "Keep searching", "nextSlideId": 111 }
+            ]
+        },
+        {
+            "id": 98,
+            "text": "You open the compartment and find a strange, old key.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Take the key", "nextSlideId": 112 },
+                { "text": "Close the compartment", "nextSlideId": 32 }
+            ]
+        },
+        {
+            "id": 99,
+            "text": "You inspect the utensil, noticing strange, ancient symbols on it.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep the utensil", "nextSlideId": 113 },
+                { "text": "Put it back", "nextSlideId": 32 }
+            ]
+        },
+        {
+            "id": 100,
+            "text": "You read the papers, discovering old, forgotten stories of the mansion.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep reading", "nextSlideId": 114 },
+                { "text": "Put the papers back", "nextSlideId": 62 }
+            ]
+        },
+        {
+            "id": 101,
+            "text": "You open the chest, finding old, forgotten items and a rusty knife with blood on it.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Inspect the items", "nextSlideId": 102 }
+            ]
+        },
+        {
+            "id": 102,
+            "text": "You inspect the items, finding old letters.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Read the letters", "nextSlideId": 116 }
+            ]
+        },
+        {
+            "id": 103,
+            "text": "You keep touching the symbols, feeling a strange energy course through you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Step back", "nextSlideId": 34 }
+            ]
+        },
+        {
+            "id": 104,
+            "text": "You enter the passageway, finding yourself in a small, hidden room.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Go back", "nextSlideId": 34 }
+            ]
+        },
+        {
+            "id": 105,
+            "text": "You piece the shards together, forming a strange, incomplete picture.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Leave the room", "nextSlideId": 37 }
+            ]
+        },
+        {
+            "id": 106,
+            "text": "You stay still, feeling the calmness slowly return.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Open your eyes", "nextSlideId": 43 },
+                { "text": "Stay still", "nextSlideId": 121 }
+            ]
+        },
+        {
+            "id": 107,
+            "text": "You keep fighting, feeling the shadows slowly retreat.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep fighting", "nextSlideId": 122 },
+                { "text": "Submit to the whispers", "nextSlideId": 95 }
+            ]
+        },
+        {
+            "id": 108,
+            "text": "You resist, feeling the whispers lose their grip on you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Submit", "nextSlideId": 95 }
+            ]
+        },
+        {
+            "id": 109,
+            "text": "You Died !",
+            "media": [{ "type": "image", "src": "" }],
             "actions": []
-        }]
-    }
+        },
+        {
+            "id": 110,
+            "text": "You call for help, but only silence responds.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Find another way", "nextSlideId": 84 },
+                { "text": "Stay put", "nextSlideId": 82 }
+            ]
+        },
+        {
+            "id": 111,
+            "text": "You keep searching, feeling the mansion shift around you.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Stay put", "nextSlideId": 82 }
+             ]
+        },
+        {
+            "id": 112,
+            "text": "You take the key, feeling a strange energy emanating from it.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Keep the key", "nextSlideId": 113 },
+                { "text": "Put it back", "nextSlideId": 32 }
+            ]
+        },
+        {
+            "id": 113,
+            "text": "You keep the key, feeling its cold weight in your pocket.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": [
+                { "text": "Search for a lock", "nextSlideId": 64 },
+                { "text": "Explore the kitchen", "nextSlideId": 32 }
+            ]
+        },
+        {
+            "id": 114,
+            "text": "You keep reading, uncovering dark secrets of the mansion's past.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": []
+        },
+        {
+            "id": 115,
+            "text": "You read the book, discovering about the mansion's past.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": []
+        },
+        {
+            "id": 116,
+            "text": "You read the letters, finding stories of the mansion's previous mysteries.",
+            "media": [{ "type": "image", "src": "" }],
+            "actions": []
+        }],
+        "theme" : 
+            {
+                "background-color": "#FBE8E7",
+                "card-color": "#ffd7d4",
+                "text-color": "#565656",
+                "shadow-color": "#FFC4D0", 
+                "button-gradient-one" : "#ff809a",
+                "button-gradient-two" : "#ff0033"
+            }
+}
+           

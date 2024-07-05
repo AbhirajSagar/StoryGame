@@ -25,6 +25,7 @@ fetch('./Story.json')
 
 function prepareStory(storyData)
 {
+    applyColorsToCSS(storyData.theme);
     slides = storyData.slides.map(slideData => new Slide(
         slideData.id,
         slideData.text,
@@ -32,6 +33,16 @@ function prepareStory(storyData)
         slideData.actions.map(actionData => new Action(actionData.text, actionData.nextSlideId))
     ));
     renderSlide(1);
+}
+
+function applyColorsToCSS(theme)
+{
+    document.documentElement.style.setProperty('--background-color', theme['background-color'] || '#FBE8E7');
+    document.documentElement.style.setProperty('--card-color', theme['card-color'] || '#ffd7d4'); 
+    document.documentElement.style.setProperty('--text-color', theme['text-color'] || '#565656'); 
+    document.documentElement.style.setProperty('--shadow-color', theme['shadow-color'] || '#FFC4D0'); 
+    document.documentElement.style.setProperty('--button-gradient-one', theme['button-gradient-one'] || '#ff809a');
+    document.documentElement.style.setProperty('--button-gradient-two', theme['button-gradient-two'] || '#ff0033');
 }
 
 
