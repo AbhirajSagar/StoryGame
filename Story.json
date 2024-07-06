@@ -3,7 +3,7 @@
         {
             "id": 1,
             "text": "Are you sure about this, Jake? This place gives me the creeps.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image1.jpg" }],
             "actions": [
                 { "text": "Enter the mansion", "nextSlideId": 2 },
                 { "text": "Stay outside", "nextSlideId": 3 }
@@ -12,7 +12,7 @@
         {
             "id": 2,
             "text": "Come on, Emily. It's just an old house. Nothing to be afraid of.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image2.jpg" }],
             "actions": [
                 { "text": "Step inside", "nextSlideId": 4 },
                 { "text": "Look for another entrance", "nextSlideId": 5 }
@@ -21,7 +21,7 @@
         {
             "id": 3,
             "text": "You decide to stay outside. Suddenly, you hear a scream from inside the mansion.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image3.jpg" }],
             "actions": [
                 { "text": "Rush inside", "nextSlideId": 6 },
                 { "text": "Run away", "nextSlideId": 7 }
@@ -30,7 +30,7 @@
         {
             "id": 4,
             "text": "I heard the old owner went mad and killed his entire family.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image4.jpg" }],
             "actions": [
                 { "text": "Keep moving", "nextSlideId": 8 },
                 { "text": "Explore the living room", "nextSlideId": 9 }
@@ -39,7 +39,7 @@
         {
             "id": 5,
             "text": "You find a side entrance and step inside cautiously.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image5.jpg" }],
             "actions": [
                 { "text": "Move towards the noise", "nextSlideId": 10 },
                 { "text": "Search for a light switch", "nextSlideId": 11 }
@@ -57,16 +57,16 @@
         {
             "id": 7,
             "text": "You run away from the mansion, hearing the whispers fade as you get further.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image7.jpg" }],
             "actions": [
                 { "text": "Keep running", "nextSlideId": 14 },
-                { "text": "Stop to catch your breath", "nextSlideId": 15 }
+                { "text": "Stop to catch your breath", "nextSlideId": 15}
             ]
         },
         {
             "id": 8,
             "text": "That’s just a story. Let’s keep moving.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image8.jpg" }],
             "actions": [
                 { "text": "Venture deeper", "nextSlideId": 16 },
                 { "text": "Check the basement", "nextSlideId": 17 }
@@ -75,7 +75,7 @@
         {
             "id": 9,
             "text": "The living room is filled with old, dusty furniture and an eerie piano.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image9.jpg" }],
             "actions": [
                 { "text": "Inspect the piano", "nextSlideId": 18 },
                 { "text": "Look behind the curtains", "nextSlideId": 19 }
@@ -84,7 +84,7 @@
         {
             "id": 10,
             "text": "As you move towards the noise, the temperature drops suddenly.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image10.jpg" }],
             "actions": [
                 { "text": "Keep going", "nextSlideId": 20 },
                 { "text": "Turn back", "nextSlideId": 21 }
@@ -93,7 +93,7 @@
         {
             "id": 11,
             "text": "You find a light switch, but it doesn’t work. The darkness is oppressive.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image11.jpg" }],
             "actions": [
                 { "text": "Search for another light source", "nextSlideId": 22 },
                 { "text": "Proceed in the dark", "nextSlideId": 23 }
@@ -111,7 +111,7 @@
         {
             "id": 13,
             "text": "You look around the room and see shadowy figures moving in the corners.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image13.jpg" }],
             "actions": [
                 { "text": "Confront the figures", "nextSlideId": 26 },
                 { "text": "Try to wake Jake", "nextSlideId": 27 }
@@ -120,7 +120,7 @@
         {
             "id": 14,
             "text": "You keep running until you reach a nearby town, out of breath and terrified.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image14.jpg" }],
             "actions": [
                 { "text": "Find help", "nextSlideId": 28 },
                 { "text": "Hide and wait", "nextSlideId": 29 }
@@ -138,7 +138,7 @@
         {
             "id": 16,
             "text": "You venture deeper into the mansion, the air growing colder with each step.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image10.jpg" }],
             "actions": [
                 { "text": "Investigate the kitchen", "nextSlideId": 32 },
                 { "text": "Head upstairs", "nextSlideId": 33 }
@@ -147,7 +147,7 @@
         {
             "id": 17,
             "text": "You descend into the basement, the stairs creaking under your weight.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image17.jpg" }],
             "actions": [
                 { "text": "Explore the basement", "nextSlideId": 34 },
                 { "text": "Return upstairs", "nextSlideId": 35 }
@@ -156,7 +156,7 @@
         {
             "id": 18,
             "text": "The piano keys depress on their own, playing a discordant, haunting melody.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image18.jpg" }],
             "actions": [
                 { "text": "Investigate further", "nextSlideId": 36 },
                 { "text": "Leave the room", "nextSlideId": 37 }
@@ -165,7 +165,7 @@
         {
             "id": 19,
             "text": "Behind the curtains, you find an old, dusty mirror. Your reflection looks distorted.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image19.jpg" }],
             "actions": [
                 { "text": "Touch the mirror", "nextSlideId": 38 },
                 { "text": "Step back", "nextSlideId": 39 }
@@ -174,7 +174,7 @@
         {
             "id": 20,
             "text": "You keep going and see a shadowy figure at the end of the hallway.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image20.jpg" }],
             "actions": [
                 { "text": "Approach the figure", "nextSlideId": 40 },
                 { "text": "Run back", "nextSlideId": 41 }
@@ -182,8 +182,8 @@
         },
         {
             "id": 21,
-            "text": "You turn back, but the hallway behind you has disappeared.",
-            "media": [{ "type": "image", "src": "" }],
+            "text": "You turn back, but the hallway behind you has disappeared into darkness.",
+            "media": [{ "type": "image", "src": "images/image19.jpg" }],
             "actions": [
                 { "text": "Panic", "nextSlideId": 42 },
                 { "text": "Stay calm", "nextSlideId": 43 }
@@ -192,7 +192,7 @@
         {
             "id": 22,
             "text": "You find a candle and light it, the flickering flame casting eerie shadows.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image22.jpg" }],
             "actions": [
                 { "text": "Move forward", "nextSlideId": 44 },
                 { "text": "Stay put", "nextSlideId": 45 }
@@ -201,7 +201,7 @@
         {
             "id": 23,
             "text": "You proceed in the dark, feeling your way along the walls.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image23.jpg" }],
             "actions": [
                 { "text": "Keep moving", "nextSlideId": 46 },
                 { "text": "Stop and listen", "nextSlideId": 47 }
@@ -228,7 +228,7 @@
         {
             "id": 26,
             "text": "The figures vanish as you approach, leaving you alone in the room.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image26.jpg" }],
             "actions": [
                 { "text": "Investigate further", "nextSlideId": 52 },
                 { "text": "Try to wake Jake", "nextSlideId": 27 }
@@ -246,7 +246,7 @@
         {
             "id": 28,
             "text": "You find help in the town and tell them about the mansion.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image28.jpg" }],
             "actions": [
                 { "text": "Lead them to the mansion", "nextSlideId": 54 },
                 { "text": "Stay in the town", "nextSlideId": 55 }
@@ -264,7 +264,7 @@
         {
             "id": 30,
             "text": "You run again, but the whispers seem to follow you.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image30.jpg" }],
             "actions": [
                 { "text": "Keep running", "nextSlideId": 14 },
                 { "text": "Hide", "nextSlideId": 29 }
@@ -273,7 +273,7 @@
         {
             "id": 31,
             "text": "You cover your ears, but the whispers get louder.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "audio", "src": "images/31.ogg" }],
             "actions": [
                 { "text": "Run", "nextSlideId": 30 },
                 { "text": "Scream", "nextSlideId": 58 }
@@ -282,7 +282,7 @@
         {
             "id": 32,
             "text": "You investigate the kitchen, finding it strangely intact but eerily quiet.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/32.jpg" }],
             "actions": [
                 { "text": "Open the fridge", "nextSlideId": 59 },
                 { "text": "Check the cupboards", "nextSlideId": 60 }
@@ -291,7 +291,7 @@
         {
             "id": 33,
             "text": "You head upstairs, each step echoing in the silence.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image33.jpg" }],
             "actions": [
                 { "text": "Check the first room", "nextSlideId": 61 },
                 { "text": "Keep going up", "nextSlideId": 62 }
@@ -300,7 +300,7 @@
         {
             "id": 34,
             "text": "You explore the basement and find old, dusty furniture and strange symbols on the walls.",
-            "media": [{ "type": "image", "src": "" }],
+            "media": [{ "type": "image", "src": "images/image34.jpg" }],
             "actions": [
                 { "text": "Inspect the symbols", "nextSlideId": 63 },
                 { "text": "Look for hidden passages", "nextSlideId": 64 }
@@ -1027,12 +1027,12 @@
         }],
         "theme" : 
             {
-                "background-color": "#FBE8E7",
-                "card-color": "#ffd7d4",
-                "text-color": "#565656",
-                "shadow-color": "#FFC4D0", 
-                "button-gradient-one" : "#ff809a",
-                "button-gradient-two" : "#ff0033"
+                "background-color": "#121212",
+                "card-color": "#1E1E1E",
+                "text-color": "#E0E0E0",
+                "shadow-color": "#2E2E2E",
+                "button-gradient-one": "#660000",
+                "button-gradient-two": "#990000"
             }
 }
            
